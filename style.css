@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=EB+Garamond:ital,wght@1,600&family=Hedvig+Letters+Serif:opsz@12..24&family=Roboto+Condensed&display=swap");
+body {
+  background-image: linear-gradient(
+      345deg,
+      rgba(77, 77, 77, 0.05) 0%,
+      rgba(77, 77, 77, 0.05) 25%,
+      rgba(42, 42, 42, 0.05) 25%,
+      rgba(42, 42, 42, 0.05) 38%,
+      rgba(223, 223, 223, 0.05) 38%,
+      rgba(223, 223, 223, 0.05) 75%,
+      rgba(36, 36, 36, 0.05) 75%,
+      rgba(36, 36, 36, 0.05) 100%
+    ),
+    linear-gradient(
+      173deg,
+      rgba(128, 128, 128, 0.05) 0%,
+      rgba(128, 128, 128, 0.05) 34%,
+      rgba(212, 212, 212, 0.05) 34%,
+      rgba(212, 212, 212, 0.05) 57%,
+      rgba(25, 25, 25, 0.05) 57%,
+      rgba(25, 25, 25, 0.05) 89%,
+      rgba(135, 135, 135, 0.05) 89%,
+      rgba(135, 135, 135, 0.05) 100%
+    ),
+    linear-gradient(
+      370deg,
+      rgba(55, 55, 55, 0.05) 0%,
+      rgba(55, 55, 55, 0.05) 14%,
+      rgba(209, 209, 209, 0.05) 14%,
+      rgba(209, 209, 209, 0.05) 60%,
+      rgba(245, 245, 245, 0.05) 60%,
+      rgba(245, 245, 245, 0.05) 69%,
+      rgba(164, 164, 164, 0.05) 69%,
+      rgba(164, 164, 164, 0.05) 100%
+    ),
+    linear-gradient(
+      378deg,
+      rgba(248, 248, 248, 0.05) 0%,
+      rgba(248, 248, 248, 0.05) 32%,
+      rgba(148, 148, 148, 0.05) 32%,
+      rgba(148, 148, 148, 0.05) 35%,
+      rgba(202, 202, 202, 0.05) 35%,
+      rgba(202, 202, 202, 0.05) 51%,
+      rgba(181, 181, 181, 0.05) 51%,
+      rgba(181, 181, 181, 0.05) 100%
+    ),
+    linear-gradient(221deg, hsl(214, 0%, 11%), hsl(214, 0%, 11%));
+  font-family: "Roboto Condensed", sans-serif !important;
+  color: antiquewhite !important;
+}
+.heading {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.satelite {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 10px;
+  row-gap: 10px;
+  justify-content: space-around;
+}
+.card {
+  background-image: linear-gradient(
+    407deg,
+    hsl(151, 59%, 76%),
+    hsl(202.429, 59%, 76%),
+    hsl(253.857, 59%, 76%),
+    hsl(305.286, 59%, 76%),
+    hsl(356.714, 59%, 76%),
+    hsl(48.143, 59%, 76%),
+    hsl(99.571, 59%, 76%)
+  );
+  color: aliceblue !important;
+}
+.card :hover {
+  cursor: pointer;
+}
+#date{
+    color: rgb(243, 244, 247) !important;
+    font-weight: 600;
+}
+   
